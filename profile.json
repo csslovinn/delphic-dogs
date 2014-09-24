@@ -1,0 +1,529 @@
+{
+  "dogs": [
+    {
+      "id": 1,
+      "nameFirst": "Kora",
+      "nameLast": "Rappaport",
+      "breed": "Entlebucher Mountain Dog",
+      "owner": "Brooke",
+      "ownerLastName": "Rappaport",
+      "ownerPosition": "Quality Analyst",
+      "department": "Quality Assurance",
+      "superlative": [
+        {
+          "description":"Biggest",
+          "main":"Baby"
+        }
+      ],
+      "activities": [
+        "Hiding",
+        "Staying far away from strangers",
+        "eating treats when nobody is looking"
+      ],
+      "personality": "Shy! (But an absolute sweetheart)",
+      "goal": "Becoming more outgoing, and exploring the office! Eating treats out of coworker’s hands!",
+      "compensation": "When comfortable, I love belly rubs! And treats!",
+      "motto": "\"You can always tell a Milford man\"",
+      "workBFF": "<a class=\"qa-link\" href=\"https://plus.google.com/u/0/115815065033694861968/posts\" target=\"_blank\">Leah<\/a>…well, more like, Leah’s corner of the room...",
+      "socials": [
+          { 
+            "link": "https://www.linkedin.com/pub/brooke-rappaport/61/279/928",
+            "type" : "linkedin"
+          }, 
+          { 
+            "link": "https://instagram.com/brooke_arynn",
+            "type" : "instagram"
+          }
+      ]
+    },
+    {
+      "id": 2,
+      "nameFirst": "Eddie",
+      "nameLast": "Simmons",
+      "breed": "Pitbull Mix",
+      "owner": "Erin",
+      "ownerLastName": "Simmons",
+      "ownerPosition": "Marketing Analyst",
+      "department": "Marketing",
+      "superlative": [
+        {
+          "description":"Biggest",
+          "main":"Flirt"
+        }
+      ],
+      "activities": [
+        "Crossfit",
+        "sunbathing by the window",
+        "keeping fresh"
+      ],
+      "personality": "Lovable",
+      "goal": "Makeout with <a class=\"qa-link\" href=\"#/dog/1\">Kora<\/a>",
+      "compensation": "Cheese",
+      "motto": "\"Hey Girl!\"",
+      "workBFF": "<a class=\"qa-link\" href=\"#/dog/15\">Chewbacca<\/a>", 
+      "socials": [
+          { 
+            "link": "https://twitter.com/erinsimmonssays",
+            "type" : "twitter"
+          },
+          { 
+            "link": "https://plus.google.com/u/0/+ErinSimmons/posts",
+            "type" : "googleplus"
+          },
+          { 
+            "link": "https://www.linkedin.com/pub/erin-simmons/11/409/45",
+            "type" : "linkedin"
+          },
+          { 
+            "link": "http://instagram.com/erinandeddie",
+            "type" : "instagram"
+          } 
+      ]
+    },
+    {
+      "id": 3,
+      "nameFirst": "McGee",
+      "nameLast": "Finkelstein",
+      "breed": "Chihuahua Dachshund Mix",
+      "owner": "Josh",
+      "ownerLastName": "Finkelstein",
+      "ownerPosition": "Director, Marketing",
+      "department": "Marketing",
+     "superlative": [
+        {
+          "description":"Biggest",
+          "main":"Ears"
+        }
+      ],
+      "activities": [
+        "Tug-of-war",
+        "lounging around",
+        "kissing faces",
+        "and chewing on things"
+      ],
+      "personality": "Perky and sweet",
+      "goal": "Finally catch a rabbit in the backyard!",
+      "compensation": "Peanut Butter",
+      "motto": "\"Will there be treats involved?\"",
+      "workBFF": "<a class=\"qa-link\" href=\"https://twitter.com/erinsimmonssays\" target=\"_blank\">Erin<\/a>",
+      "socials": [
+          { 
+            "link": "https://twitter.com/jfinklink",
+            "type" : "twitter"
+          }
+      ]
+    },
+    {
+      "id": 4,
+      "nameFirst": "Reese",
+      "nameLast": "Nguyen",
+      "breed": "Cavalier King Charles Spaniel",
+      "owner": "Steven",
+      "ownerLastName": "Nguyen",
+      "ownerPosition": "Paid Search Manager",
+      "department": "Marketing",
+     "superlative": [
+        {
+          "description":"Sleepiest",
+          "main":"Pup"
+        }
+      ],
+      "activities": [
+        "Sleeping on the couch and cuddling on warm laps"
+      ],
+      "personality": "Cuddly",
+      "goal": "Accident-free visit to the office",
+      "compensation": "Bread",
+      "motto": "\"I like it when you pet me. I LOVE it when you feed me!\"",
+      "workBFF": "<a class=\"qa-link\" href=\"https://twitter.com/erinsimmonssays\" target=\"_blank\">Erin<\/a>",
+       "socials": [
+          { 
+            "link": "https://twitter.com/oevets2188",
+            "type" : "twitter"
+          },
+          { 
+            "link": "https://plus.google.com/u/0/+StevenNguyen2188/posts",
+            "type" : "googleplus"
+          },
+          { 
+            "link": "https://www.linkedin.com/pub/steven-nguyen/40/b65/668/",
+            "type" : "linkedin"
+          }
+      ]
+    },
+    {
+      "id": 5,
+      "nameFirst": "Beaker",
+      "nameLast": "Connell",
+      "breed": "Pug",
+      "owner": "Jason",
+      "ownerLastName": "Connell",
+      "ownerPosition": "Senior Web Developer",
+      "department": "Development",
+     "superlative": [
+        {
+          "main":"Craziest"
+        }
+      ],
+      "activities": [
+        "Barking at horses on TV",
+        "going to the dog park"
+      ],
+      "personality": "Energetic",
+      "goal": "More office visits. Learn to code.",
+      "compensation": "Cheese balls, cuddles",
+      "motto": "“PUG LIFE”",
+      "workBFF": "<a class=\"qa-link\" href=\"https://twitter.com/mightyquinn28\" target=\"_blank\">Quinn<\/a>",
+       "socials": [
+          { 
+            "link": "https://twitter.com/jasontconnell",
+            "type" : "twitter"
+          },
+          { 
+            "link": "https://www.linkedin.com/in/jasontconnell",
+            "type" : "linkedin"
+          }
+      ]
+    },
+    {
+      "id": 6,
+      "nameFirst": "Phoebe",
+      "nameLast": "Springett",
+      "breed": "Cavalier King Charles Spaniel",
+      "owner": "Greta",
+      "ownerLastName": "Springett",
+      "ownerPosition": "Account Manager",
+      "department": "Client Services",
+      "superlative": [
+        {
+          "main":"Go-Getter"
+        }
+      ],
+      "activities": [
+        "Chewing on her bone",
+        "going outside",
+        "snuggling with mommy",
+        "chasing the cat"
+      ],
+      "personality": "Happy, excited, and loving",
+      "goal": "Last an entire day in the office.",
+      "compensation": "Bone, treats, love",
+      "motto": "“I’m cute and I know it!”",
+      "workBFF": "Eddie's <a class=\"qa-link\" href=\"#/dog/15\">Chewbacca<\/a>, <a class=\"qa-link\" href=\"https://www.linkedin.com/pub/charlie-darney/17/874/989\" target=\"_blank\">Charlie<\/a>, <a class=\"qa-link\" href=\"https://plus.google.com/u/0/115815065033694861968/posts\" target=\"_blank\">Leah<\/a>, <a class=\"qa-link\" href=\"https://twitter.com/MarkAPatten\" target=\"_blank\">Mark<\/a>, and <a class=\"qa-link\" href=\"https://twitter.com/jasontconnell\" target=\"_blank\">Jason<\/a>",
+      "socials": [
+          { 
+            "link": "https://www.linkedin.com/in/gretaspringett/",
+            "type" : "linkedin"
+          }
+      ]
+    },
+    {
+      "id": 7,
+      "nameFirst": "Lacy",
+      "nameLast": "Dunlap",
+      "breed": "Mutt",
+      "owner": "Andrew",
+      "ownerLastName": "Dunlap",
+      "ownerPosition": "Account Manager",
+      "department": "Client Services",
+      "superlative": [
+        {
+          "description":"Best",
+          "main":"Eyes"
+        }
+      ],
+      "activities": [
+        "Walks",
+        "playing tug",
+        "chasing laser pointers",
+        "swimming",
+        "dog park"
+      ],
+      "personality": "Excited and energetic, but a big snuggler",
+      "goal": "Completely take over the bed,  she already claimed the couch as hers.",
+      "compensation": "Treats, walks, peanut butter filled kong",
+      "motto": "“OMG OMG OMG DID YOU SAY WALK!?”",
+      "workBFF": "<a class=\"qa-link\" href=\"http://twitter.com/JulesinPhilly\" target=\"_blank\">Julia<\/a>",
+       "socials": [
+          { 
+            "link": "https://www.linkedin.com/in/andrewjdunlap/",
+            "type" : "linkedin"
+          }
+      ]
+    },
+    {
+      "id": 8,
+      "nameFirst": "Sadie",
+      "nameLast": "Dalbey",
+      "breed": "Basset/Corgi/Pit/Lab mix",
+      "owner": "Kate",
+      "ownerLastName": "Dalbey",
+      "ownerPosition": "Account Supervisor",
+      "department": "Client Services",
+      "superlative": [
+        {
+          "main":"Quirkiest"
+        }
+      ],
+      "activities": [
+        "Lying on the couch (though forbidden)",
+        "fetching sticks",
+        "swimming"
+      ],
+      "personality": "Quirky and energetic",
+      "goal": "Claiming the couch for her OWN.",
+      "compensation": "Cheese",
+      "motto": "“Couch is MINE”",
+      "workBFF": "<a class=\"qa-link\" href=\"https://twitter.com/mightyquinn28\" target=\"_blank\">Quinn<\/a>",
+       "socials": [
+          { 
+            "link": "https://www.linkedin.com/in/katedalbey",
+            "type" : "linkedin"
+          },
+          { 
+            "link": "https://plus.google.com/u/0/107078548610399414394/posts",
+            "type" : "googleplus"
+          }
+      ]
+    },
+    {
+      "id": 9,
+      "nameFirst": "Mia",
+      "nameLast": "Dalbey",
+      "breed": "Shar-Pitt",
+      "owner": "Kate",
+      "ownerLastName": "Dalbey",
+      "ownerPosition": "Account Supervisor",
+      "department": "Client Services",
+      "superlative": [
+        {
+          "main":"Princess"
+        }
+      ],
+      "activities": [
+        "Chasing squirrels",
+        "sniffing EVERYTHING",
+        "avoiding getting wet"
+      ],
+      "personality": "Gentle and loving",
+      "goal": "Never bathing again.",
+      "compensation": "Pigs ears",
+      "motto": "“Do you smell that?”",
+      "workBFF": "<a class=\"qa-link\" href=\"http://twitter.com/JulesinPhilly\" target=\"_blank\">Julia<\/a>",
+       "socials": [
+          { 
+            "link": "https://www.linkedin.com/in/katedalbey",
+            "type" : "linkedin"
+          },
+          { 
+            "link": "https://plus.google.com/u/0/107078548610399414394/posts",
+            "type" : "googleplus"
+          }
+      ]
+    },
+    {
+      "id": 10,
+      "nameFirst": "Maya",
+      "nameLast": "Patten",
+      "breed": "English Bulldog",
+      "owner": "Mark",
+      "ownerLastName": "Patten",
+      "ownerPosition": "Owner / Founding Partner",
+      "department": "Partner",
+      "superlative": [
+        {
+          "main":"Gassiest"
+        }
+      ],
+      "activities": [
+        "Sleeping and barking at the wind and evil",
+        "evil ceiling fans"
+      ],
+      "personality": "I like to flirt, which is hard when you only have a tail stump to wag",
+      "goal": "Be able to lay in the sun when it is warmer than 60 degrees",
+      "compensation": "I like to be paid for coming in from the outside, as well as for being bad (one shoe for one biscuit please).",
+      "motto": "“You gonna eat that?”",
+      "workBFF": "My dad and anybody who doesn’t happen to like dogs",
+      "socials": [
+          { 
+            "link": "https://twitter.com/MarkAPatten",
+            "type" : "twitter"
+          },
+          { 
+            "link": "https://plus.google.com/u/0/+MarkPattenDelphic/",
+            "type" : "googleplus"
+          },
+          { 
+            "link": "https://www.linkedin.com/in/markapatten/",
+            "type" : "linkedin"
+          },
+          { 
+            "link": "http://instagram.com/mpatten68",
+            "type" : "instagram"
+          } 
+      ]
+    },
+    {
+      "id": 11,
+      "nameFirst": "Shelby",
+      "nameLast": "Ave. Soucie",
+      "breed": "Shepherd/Husky/Beagle mix",
+      "owner": "Joel",
+      "ownerLastName": "Soucie",
+      "ownerPosition": "Director, Client Services",
+      "department": "Client Services",
+      "superlative": [
+        {
+          "description":"Most",
+          "main":"Athletic"
+        }
+      ],
+      "activities": [
+        "Playing frisbee",
+        "long hikes on the Wissahickon Valley Trail and Forbidden Drive."
+      ],
+      "personality": "Playful and active",
+      "goal": "Convince mom and dad to spend every waking moment playing frisbee and ball with me",
+      "compensation": "Playing frisbee or ball. I also like carrots!",
+      "motto": "“OMG THIS GAME WILL NEVER EVER GET OLD! LET’S PLAY FOREVER! THROW IT AGAIN!”",
+      "workBFF": "Literally anyone who will throw something for me", 
+       "socials": [
+          { 
+            "link": "https://twitter.com/jjsoucie",
+            "type" : "twitter"
+          },
+          { 
+            "link": "https://plus.google.com/+JoelSoucie/posts",
+            "type" : "googleplus"
+          }
+      ]
+    },
+    {
+      "id": 12,
+      "nameFirst": "James",
+      "nameLast": "Buffet Soucie",
+      "breed": "Black Lab/Beagle Mix",
+      "owner": "Joel",
+      "ownerLastName": "Soucie",
+      "ownerPosition": "Director, Client Services",
+      "department": "Client Services",
+     "superlative": [
+        {
+          "description":"Sweetest",
+          "main":"Ever"
+        }
+      ],
+      "activities": [
+        "Napping on the couch",
+        "napping on the loveseat",
+        "napping in bed...napping…"
+      ],
+      "personality": "Laid back and relaxed, like my singer namesake",
+      "goal": "Enjoy life one day at a time - I turn 16 this year!",
+      "compensation": "Carrots, but I love it when mom sneaks me bacon strips when nobody else is looking",
+      "motto": "“If life gives you limes make margaritas.”",
+      "workBFF": "I haven’t met him yet, but I hear <a class=\"qa-link\" href=\"https://twitter.com/MarkAPatten\" target=\"_blank\">Mark Patten<\/a> is a pretty laid back guy too!", 
+      "socials": [
+          { 
+            "link": "https://twitter.com/jjsoucie",
+            "type" : "twitter"
+          },
+          { 
+            "link": "https://plus.google.com/+JoelSoucie/posts",
+            "type" : "googleplus"
+          }
+      ]
+    },
+    {
+      "id": 13,
+      "nameFirst": "Oscar",
+      "nameLast": "Duchynski",
+      "breed": "Boston Terrier",
+      "owner": "Todd",
+      "ownerLastName": "Duchynski",
+      "ownerPosition": "Director, UX/UI",
+      "department": "User Experience",
+      "superlative": [
+        {
+          "description":"Neediest",
+          "main":"Ever"
+        }
+      ],
+      "activities": [
+        "Looking for Dad",
+        "giving kisses when distracted from looking for Dad"
+      ],
+      "personality": "Hesitantly adorable. Concerned. Wondering where Dad is.",
+      "goal": "Enjoy some more time in the office (without accidents!)",
+      "compensation": "Dad’s affection, treats",
+      "motto": "“Where’s Dad?”",
+      "workBFF": "The Design Team", 
+      "socials": [
+          { 
+            "link": "https://plus.google.com/103821743344693783940/posts",
+            "type" : "googleplus"
+          }
+      ]
+    },
+    {
+      "id": 14,
+      "nameFirst": "Shelby",
+      "nameLast": "Hierhager",
+      "breed": "Lab/Shepherd Mix",
+      "owner": "Erik",
+      "ownerLastName": "Hierhager",
+      "ownerPosition": "Web Developer",
+      "department": "Development",
+      "superlative": [
+        {
+          "description":"Pickiest",
+          "main":"Eater"
+        }
+      ],
+      "activities": [
+        "Sleeping"
+      ],
+      "personality": "Neurotic",
+      "goal": "Get belly rubs",
+      "compensation": "Ice cubes",
+      "motto": "“Daddy’s girl”",
+      "workBFF": "TBD", 
+       "socials": [
+          { 
+            "link": "https://plus.google.com/106597645223995033209/posts",
+            "type" : "googleplus"
+          }
+      ]
+    },
+    {
+      "id":15,
+      "nameFirst": "Chewy",
+      "nameLast": "",
+      "breed": "Wookie",
+      "owner": "Eddie",
+      "ownerLastName": "Simmons",
+      "ownerPosition": "Director of the Sunny Spot",
+      "department": "Marketing",
+      "superlative": [
+        {
+          "description":"Most",
+          "main":"Friendly"
+        }
+      ],
+      "activities": [
+        "Fetch"
+      ],
+      "personality": "Playful",
+      "goal": "Keep remaining arm",
+      "compensation": "Drool",
+      "motto": "“Rrrrrrr-ghghghghgh”",
+      "workBFF": "<a class=\"qa-link\" href=\"#/dog/2\">Eddie<\/a>", 
+       "socials": [
+          { 
+            "link": "https://twitter.com/Chewbacca",
+            "type" : "twitter"
+          }
+      ]
+    }
+  ]
+}

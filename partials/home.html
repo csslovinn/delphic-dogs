@@ -1,0 +1,15 @@
+<div id="container" class="clearfix dog-border">
+	<div id="content">
+		<header>
+			<h1 id="logo-delphic"><img src="images/delphic-crest.svg" alt="Delphic Dogs"></h1>
+		</header>
+		<div id="dog-photos" class="clearfix">
+			<span ng-repeat="dog in dogs | limitTo:14">
+			<a href="#/dog/{{dog.id}}"><div class="dog-yearbook dog-{{dog.id}}">
+					<img src="images/dogs/{{dog.id}}/yearbook.jpg">
+					<div class="dog-name">{{dog.nameFirst}} {{dog.nameLast}}</div>
+					<div class="dog-title">{{dog.ownerPosition}}</div>
+				</div></a>
+				</span>
+		</div> <!-- end dog photos -->
+	</div> <!--end content -->

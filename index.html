@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="DelphicDogsApp">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Delphic Dogs</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/medium.css" media="(min-width: 768px), print">
+		<link rel="stylesheet" href="css/wide.css" media="(min-width: 980px), print">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="icon" href="favicon.png" />
+    <!--[if IE]><link rel="shortcut icon" href="/favicon.ico" /><![endif]-->
+    <!-- or, set /favicon.ico for IE10 win -->
+	</head>
+	<body ng-controller="AppController">
+		<div ng-view autoscroll="true">
+			
+		</div> <!-- end container -->
+		<!-- JavaScript Includes -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular-route.min.js"></script>
+	   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular-sanitize.js"></script>
+	  <script src="js/app.js"></script>
+	</body>
+</html>

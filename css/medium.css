@@ -1,0 +1,416 @@
+/*
+________________________________________________________________________________
+
+This file is where all core styles are defined
+Styles in this file are intended to operate from 320px up;
+________________________________________________________________________________
+
+-- BASE --
+-- 1.1 Fonts --
+-- 1.2 Structure --
+-- 1.3 Global --
+-- 1.4 Helper --
+
+-- PRESENTATION --
+-- 2.1 Header --
+-- 2.2 Footer --
+-- 2.3 Navigation --
+-- 2.4 Content --
+-- 2.5 Print --
+-- */
+
+
+/* 1.1 =Fonts
+------------------------------------------------------------------------------*/
+/* =Icon Fonts */
+
+
+/* 1.2 =Structure
+------------------------------------------------------------------------------*/
+#container
+{
+	padding:9px;
+	width:100%;
+}
+
+.dog-border
+{
+	background-image:none;
+}
+
+/* 1.3 =Global
+------------------------------------------------------------------------------*/
+ /* =Buttons */
+ 
+
+ /* 1.4 =Helper
+------------------------------------------------------------------------------*/
+.visible-phone    { display: none; }
+.visible-tablet   { display: block; }
+.visible-desktop  { display: none; }
+
+.hidden-phone     { display: block; }
+.hidden-tablet    { display: none; }
+
+.hidden-phone-inline  { display: inline-block; }
+
+/* 2.1 =Header
+------------------------------------------------------------------------------*/
+
+
+/* 2.2 =Footer
+------------------------------------------------------------------------------*/
+footer
+{
+	padding-bottom:0;
+}
+
+.social-footer-wrap a
+{
+	margin:0;
+	width:30px;
+	height:30px;
+	background: url(../images/sprite-footer-desktop.png) left top no-repeat;
+}
+
+.social-footer-wrap a.f-twitter           { background-position: -34px top; }
+.social-footer-wrap a.f-googleplus        { background-position: -70px top; }
+.social-footer-wrap a.f-linkedin          { background-position: -105px top; }
+.social-footer-wrap a.f-youtube			  { background-position: -212px 1px; }
+.social-footer-wrap a.f-instagram		  { background-position: -251px top; }
+.social-footer-wrap a.f-blog              { background-position: -138px top; width: 70px; }
+
+#dog-connect .social-footer-wrap a {
+	margin-right: 7px;
+}
+
+#delphic-info
+{
+	display:inline-block;
+	margin:0 100px 0 30px;
+}
+
+.footer-logo
+{
+	width:auto;
+	padding-left:20px;
+}
+
+.address 
+{
+	text-align:left;
+}
+
+#connect
+{
+	display:inline-block;
+	font-size:17px;
+	position:relative;
+	top:15px;
+	letter-spacing:2px;
+}
+
+#dog-connect
+{
+	margin-top:15px;
+}
+
+/* 2.3 =Navigation
+------------------------------------------------------------------------------*/
+
+/* 2.4 =Content
+------------------------------------------------------------------------------*/
+/* Landing Page */
+#content
+{
+	position:relative;
+	margin:0 auto;
+	width:750px;
+	height:685px;
+}
+
+#logo-delphic
+{
+	position:absolute;
+	top:145px;
+	left:180px;
+	width:380px;
+}
+
+.dog-yearbook
+{
+	float:none;
+	margin:0;
+}
+
+.dog-1
+{
+	position:absolute;
+	top:0;
+	left:75px;
+}
+
+.dog-2
+{
+	position:absolute;
+	top:0;
+	left:193px;
+}
+
+.dog-3
+{
+	position:absolute;
+	top:0;
+	left:311px;
+}
+
+.dog-4
+{
+	position:absolute;
+	top:0;
+	left:429px;
+}
+
+.dog-5
+{
+	position:absolute;
+	top:0;
+	left:547px;
+}
+
+.dog-6
+{
+	position:absolute;
+	top:175px;
+	right:0;
+}
+
+.dog-7
+{
+	position:absolute;
+	top:350px;
+	right:0;
+}
+
+.dog-8
+{
+	position:absolute;
+	top:350px;
+	left:0;
+}
+
+.dog-9
+{
+	position:absolute;
+	top:175px;
+	left:0;
+}
+
+.dog-10
+{
+	position:absolute;
+	bottom:0;
+	left:75px;
+}
+
+.dog-11
+{
+	position:absolute;
+	bottom:0;
+	left:193px;
+}
+
+.dog-12
+{
+	position:absolute;
+	bottom:0;
+	left:311px;
+}
+
+.dog-13
+{
+	position:absolute;
+	bottom:0;
+	left:429px;
+}
+
+.dog-14
+{
+	position:absolute;
+	bottom:0;
+	left:547px;
+}
+
+/* Profile page */
+#profile-page header
+{
+	margin:0 auto;
+	padding-top:30px;
+}
+
+#profile-page h1
+{
+	display:block;
+	margin:0 auto 20px auto;
+	padding:0 30px;
+	width:79%;
+	letter-spacing:5px;
+	background: 
+   		url(../images/arrow-left.png) 0 50% no-repeat,  
+   		url(../images/arrow-right.png) 100% 50% no-repeat;
+   	text-align:center;                       
+}
+
+#profile-page .arrow-left, #profile-page .arrow-right
+{
+	position:relative;
+	bottom:10px;
+} 
+
+.profile-map
+{
+	width:88%;
+	height:200px;
+}
+
+.profile-photo
+{
+	position:absolute;
+	left:0;
+}
+
+.top-connector
+{
+	top:20px;
+	left:130px;
+	width:110px;
+	height:10px;
+	background-image: linear-gradient(to right, #000 35%, rgba(255, 255, 255, 0) 20%);
+    background-position: top;
+    background-size: 6px 2px;
+    background-repeat: repeat-x;
+}
+
+.profile-box
+{
+	top:0;
+	left:240px;
+	padding:15px 30px;
+	width:272px;
+	height:auto;
+}
+
+.bottom-connector
+{
+	top:131px;
+	left:-220px;
+	padding:50px 0 0 170px;
+	width:31px;
+	font-size:18px;
+}
+
+.profile-title
+{
+	font-family: 'Yellowtail-Regular', serif;
+	font-size:25px;
+}
+
+.dog-label
+{
+	display:inline-block;
+	position:relative;
+	left:275px;
+	margin-top:-20px;
+	width:360px;
+}
+
+.dog-label h2
+{
+	padding-left:8px;
+	width:auto;
+}
+
+.dog-label-main
+{
+	font-size:28px;
+}
+
+#qa-header h3
+{
+	display:block;
+	padding:17px 15px;
+	font-size:26px;
+	letter-spacing:4px;
+   	text-align:center;                       
+}
+
+.qa-header-text
+{
+	width:90%;
+	margin:0 auto;
+}
+
+#qa-header .qa-border
+{
+	position:relative;
+	bottom:7px;
+}
+
+#qa-content
+{
+	padding:35px 60px 25px 60px;
+}
+
+#dog-nav
+{
+	padding-bottom:10px;
+}
+
+#dog-nav ul
+{
+	display:inline-block;
+	margin:0 40px;
+	width:385px;
+}
+
+#dog-nav li
+{
+	margin-top:20px;
+}
+
+#dog-nav li:first-child
+{
+	margin:20px 9px 15px 9px;
+}
+
+#dog-nav li.hidedog
+{
+	display:inline-block;
+}
+
+.more
+{
+	display:inline-block;
+	position:relative;
+	bottom:15px;
+	width:125px;
+	text-align:left;
+}
+
+.back-link
+{
+	margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 2.5 =Print
+------------------------------------------------------------------------------*/

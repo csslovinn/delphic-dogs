@@ -1,0 +1,607 @@
+/*
+________________________________________________________________________________
+
+This file is where all core styles are defined
+Styles in this file are intended to operate from 320px up;
+________________________________________________________________________________
+
+-- BASE --
+-- 1.1 Fonts --
+-- 1.2 Structure --
+-- 1.3 Global --
+-- 1.4 Helper --
+
+-- PRESENTATION --
+-- 2.1 Header --
+-- 2.2 Footer --
+-- 2.3 Navigation --
+-- 2.4 Content --
+-- 2.5 Print --
+-- */
+
+
+/* 1.1 =Fonts
+------------------------------------------------------------------------------*/
+
+@font-face 
+{ 
+	font-family: 'Yellowtail-Regular';
+	src: url('../fonts/Yellowtail-Regular.eot');
+	src: url('../fonts/Yellowtail-Regular?#iefix') format('embedded-opentype'),
+	     url('../fonts/Yellowtail-Regular.woff') format('woff'),
+	     url('../fonts/Yellowtail-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'deming_epregular';
+    src: url('../fonts/deming_ep-webfont.eot');
+    src: url('../fonts/deming_ep-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/deming_ep-webfont.woff') format('woff'),
+         url('../fonts/deming_ep-webfont.ttf') format('truetype'),
+         url('../fonts/deming_ep-webfont.svg#deming_epregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* =Icon Fonts */
+
+
+/* 1.2 =Structure
+------------------------------------------------------------------------------*/
+#container
+{
+	margin:25px auto;
+	width:90%;
+}
+
+.dog-border
+{
+	background-image: linear-gradient(to right, #279ad6 35%, rgba(255, 255, 255, 0) 0%),
+	                  linear-gradient(to bottom, #279ad6 35%, rgba(255, 255, 255, 0) 0%),
+	                  linear-gradient(to right, #279ad6 35%, rgba(255, 255, 255, 0) 0%),
+	                  linear-gradient(to bottom, #279ad6 35%, rgba(255, 255, 255, 0) 0%);
+    background-position: top left,
+    					 99.9% -15.3%,
+    					 98.0% 100%,
+    					 left top;
+    background-size: 6px 2px, 2px 6px, 6px 2px, 2px 6px;
+    background-repeat: repeat-x, repeat-y, repeat-x, repeat-y;
+}
+
+#profile-page
+{
+	background-color:#082946;
+	color:#082946;
+}
+
+#profile-wrap
+{
+	margin:0 auto;
+	width:100%;
+	max-width:700px;
+	background-color:#fff;
+}
+
+.profile-bg, #qa-header, #qa-content, footer
+{
+	padding:0 25px;
+}
+
+#dog-nav {padding:0 15px;}
+
+#qa-header, #dog-nav
+{
+	background-color:#279ad6;
+}
+
+/* 1.3 =Global
+------------------------------------------------------------------------------*/
+ /* Reset */
+body 
+{
+	font-family:'Open Sans', sans-serif;
+}
+
+ul {margin:0;padding:0;}
+li {list-style:none;}
+
+/* End Reset */
+
+ /* =Buttons */
+ 
+ /* =Images */
+.baby-icon
+{
+	display:inline-block;
+	width:62px;
+	height:60px;
+	background: url('../images/baby-icon.png') no-repeat;
+	-webkit-background-size:62px;
+	background-size:62px;
+}
+
+.back-arrow
+{
+	display:inline-block;
+	width:11px;
+	height:9px;
+	background: url('../images/back-arrow.png') no-repeat;
+	-webkit-background-size:11px;
+	background-size:11px;
+}
+
+.logo-cube
+{
+	display:inline-block;
+	width:37px;
+	height:41px;
+	background: url('../images/logo-delphic.png') no-repeat;
+	-webkit-background-size:37px;
+	background-size:37px;
+}
+
+.qa-border
+{
+	display:inline-block;
+	width:69px;
+	height:2px;
+	background: url('../images/white-border.png') no-repeat;
+	-webkit-background-size:69px;
+	background-size:69px;
+}
+
+.left-arrow-icon
+{
+	display:inline-block;
+	width:101px;
+	height:32px;
+	background: url('../images/arrow-left.png') no-repeat;
+	-webkit-background-size:101px;
+	background-size:101px;
+} 
+
+.right-arrow-icon
+{
+	display:inline-block;
+	width:101px;
+	height:32px;
+	background: url('../images/arrow-right.png') no-repeat;
+	-webkit-background-size:101px;
+	background-size:101px;
+}
+ /* 1.4 =Helper
+------------------------------------------------------------------------------*/
+
+.hidden-phone, .hidden-phone-inline      { display: none; }
+
+.visible-phone     { display: block; }
+.visible-desktop   { display: none!important; }
+.visible-tablet    { display: none; }
+
+
+.image-constrain   { max-width: 100%; }
+
+.clearfix:before,
+.clearfix:after    { content: " "; display: table;}
+.clearfix:after    { clear: both;}
+
+#tracking-pixels { position: absolute; top: -9999px;}
+
+.clear {clear:both;}
+.caps {text-transform:uppercase;}
+
+
+/* 2.1 =Header
+------------------------------------------------------------------------------*/
+
+
+/* 2.2 =Footer
+------------------------------------------------------------------------------*/
+
+footer
+{
+	padding-bottom:50px;
+	font-weight:300;
+	background-color:#000;
+	color:#fff;
+}
+
+.footer-logo
+{
+	width:40px;
+	margin:0 auto 0 auto;
+	padding:45px 0 12px 0;
+}
+
+.address
+{
+	margin-bottom:30px;
+	font-size:10px;
+	line-height:1.75;
+	text-align:center;
+}
+
+#connect 
+{
+	font-size:15px;
+	color:#838383;
+}
+
+.social-footer-wrap     { margin: 5px 0; overflow: hidden; }
+
+.social-footer-wrap a
+{
+	display: inline-block;
+	margin: 0 0 5px;
+	width: 25px;
+	height: 25px;
+	text-indent: -9999px;
+	color: #fff;
+	border: 1px solid #0c2f41;
+	background: url(../images/sprite-footer.png) left top no-repeat;
+}
+
+.social-footer-wrap a.f-twitter           { background-position: -28px top; }
+.social-footer-wrap a.f-googleplus        { background-position: -58px top; }
+.social-footer-wrap a.f-linkedin          { background-position: -87px top; }
+.social-footer-wrap a.f-youtube						{ background-position: -177px 1px; }
+.social-footer-wrap a.f-instagram					{ background-position: -211px 0; }
+.social-footer-wrap a.f-blog              { background-position: -115px top; width: 58px; }
+
+.social-footer-wrap a:hover   { background-color: #299bd6; }
+
+#dog-connect .social-footer-wrap a {margin-right:5px;}
+
+/* 2.3 =Navigation
+------------------------------------------------------------------------------*/
+
+/* 2.4 =Content
+------------------------------------------------------------------------------*/
+/* Landing Page */
+
+#logo-delphic
+{
+	margin:0;
+}
+
+#dog-photos
+{
+	margin:0 auto 10px auto;
+	width:94%;
+}
+
+#dog-photos a, #dog-photos a:visited
+{
+	color:#000;
+}
+
+.dog-yearbook
+{
+	float:left;
+	margin:0 5px 30px 5px;
+	width:125px;
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.dog-yearbook img
+{
+	display:block;
+	margin:0 auto 5px auto;
+}
+	
+.dog-name
+{
+	font-size:10px;
+	font-weight:600;
+}
+
+.dog-title
+{
+	font-size:8px;
+}
+
+/* Profile Page */
+.profile-bg
+{
+	background:url('../images/profile-background.png') repeat;
+}
+
+h1
+{
+	margin:0 0 15px 0;
+	padding:15px 0 0 0;
+	font-family: 'Oswald', sans-serif;
+	font-size:55px;
+	font-weight:400;
+	color:#279ad6;
+	text-align:center;
+	letter-spacing:2px;
+}
+
+.profile-map
+{
+	position:relative;
+	margin:0 auto 10px auto;
+	width:270px;
+	height:380px;
+}
+
+.profile-photo
+{
+	display:block;
+	margin:0 auto;
+	width:155px;
+	height:155px;
+	border:1px solid #000;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+
+.top-connector
+{
+	position:absolute;
+	top:108px;
+	left:62px;
+	width:10px;
+	height:70px;
+	background-image: linear-gradient(to bottom, #000 35%, rgba(255, 255, 255, 0) 20%);
+    background-position: left;
+    background-size: 2px 6px;
+    background-repeat: repeat-y;
+}
+
+.profile-box
+{
+	position:absolute;
+	top:178px;
+	left:0;
+	margin:0 auto;
+	padding:30px 20px;
+	width:230px;
+	height:auto;
+	font-size:14px;
+	font-weight:600;
+	background-color:#fff;
+	background-image: linear-gradient(to right, #000 35%, rgba(255, 255, 255, 0) 20%),
+	                  linear-gradient(to bottom, #000 35%, rgba(255, 255, 255, 0) 20%),
+	                  linear-gradient(to right, #000 35%, rgba(255, 255, 255, 0) 20%),
+	                  linear-gradient(to bottom, #000 35%, rgba(255, 255, 255, 0) 20%);
+    background-position: top,
+    					 right,
+    					 bottom,
+    					 left;
+    background-size: 6px 2px, 2px 6px, 6px 2px, 2px 6px;
+    background-repeat: repeat-x, repeat-y, repeat-x, repeat-y;
+}
+
+.bottom-connector
+{
+	position:absolute;
+	left:62px;
+	top:100%;
+	padding:20px 0 0 129px;
+	width:26px;
+	font-family: 'Oswald', sans-serif;
+	background-image: linear-gradient(to left, #000 36%, rgba(255, 255, 255, 0) 20%),
+	                  linear-gradient(to bottom, #000 35%, rgba(255, 255, 255, 0) 20%);
+    background-position: bottom,
+    					 left;
+    background-size: 6px 2px, 2px 6px;
+    background-repeat: repeat-x, repeat-y;
+}
+
+.detail
+{
+	margin-left:7px;
+	font-size:12px;
+	font-weight:400;
+	text-transform:capitalize;
+}
+
+.dog-label
+{
+	display:table;
+	margin:0 auto;
+	padding-bottom:30px;
+}
+
+.dog-label h2
+{
+	display:block;
+	padding-left:10px;
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	font-size:14px;
+	text-align:center;
+	letter-spacing:2px;
+	float:left;
+}
+
+.dog-label-main
+{
+	font-family: 'deming_epregular', serif;
+	font-size:22px;
+	letter-spacing:0;
+}
+
+.label-icon
+{
+	float:left;
+}
+
+#dog-qa
+{
+	margin-bottom:30px;
+}
+
+#qa-header
+{
+	margin-bottom:30px;
+}
+
+#qa-header h3
+{
+	margin:0;
+	padding:22px 0;
+	font-family: 'Lato', sans-serif;
+	font-size:18px;
+	font-weight:400;
+	text-align:center;
+	color:#fff;
+	letter-spacing:2px;
+}
+
+.ultra-bold
+{
+	font-weight:900;
+}
+
+#qa-content li
+{
+	margin-bottom:20px;
+}
+
+.qa-link, .qa-link:visited
+{
+	color:#78ccf7;
+	text-decoration: none; 
+	border-bottom:1px dotted; 
+}
+
+.qa-link:hover
+{
+	color:#082946;
+}
+
+.question
+{
+	margin:0 0 3px 0;
+	font-family: 'Lato', sans-serif;
+	font-weight:400;
+	color:#279ad6;
+	letter-spacing:1px;
+}
+
+.answer 
+{
+	margin:0;
+	font-size:13px;
+	color:#7e7e7e;
+}
+
+#dog-nav
+{
+	padding-bottom:28px;
+}
+
+#dog-nav ul
+{
+	margin:0 auto;
+	width:290px;
+}
+
+#dog-nav li
+{
+	display:inline-block;
+	margin:30px 9px 15px 9px;
+}
+
+#dog-nav li.hidedog
+{
+	display:none;
+}
+
+/* Nav Dog Images and Transitions */
+
+.nav-photo
+{
+	width:75px;
+	height:75px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+
+.nav-photo
+{
+	position:relative;
+}
+
+.nav-photo:after, .nav-photo:before {
+    position:absolute;
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.nav-photo:after
+{
+	content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+
+.nav-photo:hover:before, .nav-photo:hover:after
+{
+    opacity:1;
+}
+
+.nav-photo:before 
+{
+    width: 100%;
+    content: attr(data-content);
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	z-index: 1;
+	padding-top: 30px;
+	text-align: center;
+	line-height:1.1;
+}
+
+.nav-dog
+{
+	width:100%;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+
+.more 
+{
+	margin:0 auto;
+	width:225px;
+	font-family: 'Yellowtail-Regular', serif;
+	font-size:18px;
+	font-weight:700px;
+	color:#fff;
+}
+
+.back-link
+{
+	display:inline-block;
+	margin-left:10px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	color:#fff;
+}
+
+.back-arrow
+{
+	position:relative;
+	bottom:3px;
+}
+/* 2.5 =Print
+------------------------------------------------------------------------------*/

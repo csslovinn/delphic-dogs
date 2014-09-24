@@ -1,0 +1,110 @@
+<!-- partials/dog.html -->
+<div id="profile-page">
+		<div id="profile-wrap">
+			<div class="profile-bg">
+				<header>
+					<h1 class="caps">Meet {{dog.nameFirst}}</h1>
+				</header>
+				<section id="dog-profile">
+				<div class="profile-map">
+					<div>
+						<img src="images/dogs/{{dog.id}}/profile.jpg" class="profile-photo" alt="{{dog.nameFirst}}">
+					</div>
+					<div class="top-connector"></div>
+					<div class="profile-box profile-border">
+						<div class="profile-title hidden-phone">Profile</div>
+						<ul>
+							<li class="category caps">Breed<span class="detail">{{dog.breed}}</span></li>
+							<li class="category caps">Owner<span class="detail">{{dog.owner}} {{dog.ownerLastName}}</span></li>
+							<li class="category caps">Position<span class="detail">{{dog.ownerPosition}}</span></li>
+							<li class="category caps">Department<span class="detail">{{dog.department}}</span></li>
+						</ul>
+						<div class="bottom-connector">AKA</div>
+					</div>
+				</div><!-- end profile map -->
+						<div class="dog-label caps clearfix" ng-repeat="data in dog.superlative">
+							<div class="label-icon"><img src="images/dogs/{{dog.id}}/superlative.jpg" alt="The {{data.description}} {{data.main}}"></div>
+							<h2 >The {{data.description}} <div class="dog-label-main">{{data.main}}</div></h2>
+						</div>
+				</section>
+			</div> <!-- end profile bg -->
+				<section id="dog-qa">
+					<div id="qa-header">
+						<div class="qa-header-text">
+							<h3 class="caps">A little <span class="ultra-bold">Q&amp;A</span> with {{dog.nameFirst}}</h3>
+						</div>
+					</div>
+					<div id="qa-content">
+						<ul>
+							<li>
+								<h4 class="question caps">Favorite Activities?</h4>
+								<p class="answer"><span ng-repeat="activity in dog.activities">{{activity}}<span ng-show="!$last">, </span></span></p>
+							</li>
+							<li>
+								<h4 class="question caps">What's your personality like?</h4>
+								<p class="answer">{{dog.personality}}</p>
+							</li>
+							<li>
+								<h4 class="question caps">Name a goal or milestone of yours.</h4>
+								<p class="answer" ng-bind-html="dog.goal">{{dog.goal}}</p>
+							</li>
+							<li>
+								<h4 class="question caps">What's your compensation?</h4>
+								<p class="answer">{{dog.compensation}}</p>
+							</li>
+							<li>
+								<h4 class="question caps">Your motto?</h4>
+								<p class="answer">{{dog.motto}}</p>
+							</li>
+							<li>
+								<h4 class="question caps">And your work BFF?</h4>
+								<p class="answer" ng-bind-html="dog.workBFF">{{dog.workBFF}}</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<div id="dog-nav">
+					<ul>
+						<a ng-repeat="randomDog in randomDogs" href="#/dog/{{randomDog.id}}"><li data-content="{{randomDog.nameFirst}}" class="nav-photo" ng-class='{hidedog : $first}'><img src="images/dogs/{{randomDog.id}}/profile.jpg" class="nav-dog" alt="{{randomDog.nameFirst}}"></li></a>
+					</ul>
+					<div class="more">
+						<div>Want to see more? <a href="#/index"><span class="back-link caps">Go back <span class="back-arrow"></span></span></a></div>
+					</div>
+				</div>
+				<footer>
+					<div id="delphic-info">
+						<div class="footer-logo">
+							<span class="logo-cube"></span>
+						</div>
+						<div class="address">
+							<ul>
+								<li>Delphic Digital</li>
+								<li>116 Shurs Lane, 2nd Floor</li>
+								<li>Philadelphia, PA 19127</li>
+								<li>P: 215-508-1800</li>
+							</ul>
+						</div>
+					</div>
+					<div id="connect">
+						<div id="delphic-connect">
+							<div class="caps">Connect with Delphic</div>
+							<div class="social-footer-wrap">
+								<a target="_blank" onclick="ga('send', 'event', 'Footer Navigation', 'Click', 'Facebook');" href="https://www.facebook.com/delphicdigital" class="f-facebook">Facebook</a>
+								<a target="_blank" onclick="ga('send', 'event', 'Footer Navigation', 'Click', 'Twitter');" href="http://twitter.com/delphicdigital" class="f-twitter">Twitter</a>
+								<a target="_blank" onclick="ga('send', 'event', 'Footer Navigation', 'Click', 'Google plus');" href="https://plus.google.com/u/0/112094372704036081120/posts" class="f-googleplus" rel="publisher">Google+</a>
+								<a target="_blank" onclick="ga('send', 'event', 'Footer Navigation', 'Click', 'Linkedin');" href="http://www.linkedin.com/company/delphic-digital" class="f-linkedin">Linkedin</a>
+								<a target="_blank" onclick="ga('send', 'event', 'Footer Navigation', 'Click', 'Youtube);" href="http://youtube.com/delphicdigital" class="f-youtube">Youtube</a>
+								<a target="_blank" onclick="ga('send', 'event', 'Footer Navigation', 'Click', 'Instagram);" href="http://instagram.com/delphic_digital" class="f-instagram">Instagram</a>
+								<a target="_blank" onclick="ga('send', 'event', 'Footer Navigation', 'Click', 'Blog');" href="/home/blog.aspx" class="f-blog">Blog</a>
+							</div>
+						</div><!--end dog connect -->
+						<div id="dog-connect">
+							<div class="caps">Connect with {{dog.owner}} &amp; {{dog.nameFirst}}</div>
+							<div class="social-footer-wrap">
+								<a ng-repeat="social in dog.socials" target="_blank" href="{{social.link}}" class="f-{{social.type}}">{{social.type}}</a>
+							</div>
+						</div> <!--end dog connect -->
+					</div>
+				</footer>
+			</div><!-- end wrap -->
+		</div>
